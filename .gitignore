@@ -1,0 +1,4 @@
+*.pyc*
+*__init__.py*
+manage.py
+visitor_app/migrations
