@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from visitor_app.views import Visitor
+
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^api/peopleinfo/', Visitor.as_view()),
 ]
