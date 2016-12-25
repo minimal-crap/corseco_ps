@@ -1,4 +1,7 @@
 *.pyc*
 *__init__.py*
+*.sqlite3
 manage.py
 visitor_app/migrations
+photos
+.idea
